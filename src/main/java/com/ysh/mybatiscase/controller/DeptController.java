@@ -28,4 +28,11 @@ public class DeptController {
 
         return depmentById;
     }
+
+    @GetMapping(value = "/test")
+    public void test()  {
+        System.out.println("test进来了........");
+
+
+    }
 }
