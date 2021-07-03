@@ -35,4 +35,11 @@ public class DeptController {
 
 
     }
+
+    @GetMapping(value = "/test1")
+    public void test1()  {
+        System.out.println("test1进来了........");
+
+
+    }
 }
