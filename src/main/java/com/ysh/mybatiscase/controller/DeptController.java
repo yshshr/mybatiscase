@@ -26,7 +26,7 @@ public class DeptController {
 
         DepartMent depmentById = departMentMapper.getDepmentById(id);
 
-        System.out.println("getDeptById结束...");
+        System.out.println("getDeptById结束........");
         return depmentById;
     }
 
